@@ -1,0 +1,27 @@
+.work-process {
+  padding-top: 47px;
+}
+.work-process__list {
+  display: flex;
+  justify-content: space-between;
+}
+.work-process__item {
+  position: relative;
+  width: 370px;
+}
+.work-process__description {
+  font-family: var(--main-font);
+  font-weight: bold;
+  line-height: 1.14;
+  width: 100%;
+  height: 70px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+}
